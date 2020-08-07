@@ -5,9 +5,9 @@
   <subtitle>通往梦境的道路</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://liu1796997299.github.io/"/>
   <updated>2020-08-06T11:45:08.672Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://liu1796997299.github.io/</id>
   
   <author>
     <name>LXP</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title></title>
-    <link href="http://yoursite.com/2020/08/06/JDK%E6%96%B0%E7%89%B9%E6%80%A7/"/>
-    <id>http://yoursite.com/2020/08/06/JDK%E6%96%B0%E7%89%B9%E6%80%A7/</id>
+    <link href="https://liu1796997299.github.io/2020/08/06/JDK%E6%96%B0%E7%89%B9%E6%80%A7/"/>
+    <id>https://liu1796997299.github.io/2020/08/06/JDK%E6%96%B0%E7%89%B9%E6%80%A7/</id>
     <published>2020-08-06T11:08:13.403Z</published>
     <updated>2020-08-06T11:45:08.672Z</updated>
     
@@ -27,57 +27,10 @@
     
     <summary type="html">
     
-      &lt;h1 id=&quot;JDK8新特性&quot;&gt;&lt;a href=&quot;#JDK8新特性&quot; class=&quot;headerlink&quot; title=&quot;JDK8新特性&quot;&gt;&lt;/a&gt;JDK8新特性&lt;/h1&gt;&lt;p&gt;​        Java8是Oracle公司于2014年3月发布的Java版本，可以看成是：自Java5以来最具革命性的版本。Java8为Java语言、编译器、类库、开发工具与JVM带来了大量新特性。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;特点：&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;速度更快&lt;/li&gt;
-&lt;li&gt;代码更少。增加了新语法Lambda表达式&lt;/li&gt;
-&lt;li&gt;强大的Stream API&lt;/li&gt;
-&lt;li&gt;便于并行&lt;/li&gt;
-&lt;li&gt;最大化减少空指针异常：Optional&lt;/li&gt;
-&lt;li&gt;Nashorn引擎，允许在JVM上运行JavaScript应用&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;h1 id=&quot;函数式接口&quot;&gt;&lt;a href=&quot;#函数式接口&quot; class=&quot;headerlink&quot; title=&quot;函数式接口&quot;&gt;&lt;/a&gt;函数式接口&lt;/h1&gt;&lt;h2 id=&quot;什么是函数式接口&quot;&gt;&lt;a href=&quot;#什么是函数式接口&quot; class=&quot;headerlink&quot; title=&quot;什么是函数式接口?&quot;&gt;&lt;/a&gt;什么是函数式接口?&lt;/h2&gt;&lt;p&gt;​        &lt;strong&gt;如果一个接口中，只声明了一个抽象方法，则此接口就称为函数式接口。&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&quot;如何定义&quot;&gt;&lt;a href=&quot;#如何定义&quot; class=&quot;headerlink&quot; title=&quot;如何定义?&quot;&gt;&lt;/a&gt;如何定义?&lt;/h2&gt;&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;/*&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;@FunctionalInterface:检验是否是一个函数式接口&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt; */&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;@FunctionalInterface&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;class&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;interface&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;MyInterface&lt;/span&gt; &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;show&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;()&lt;/span&gt;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-
-
-
-&lt;h2 id=&quot;四大核心函数式接口&quot;&gt;&lt;a href=&quot;#四大核心函数式接口&quot; class=&quot;headerlink&quot; title=&quot;四大核心函数式接口&quot;&gt;&lt;/a&gt;四大核心函数式接口&lt;/h2&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;接口&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;入参&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;返回值&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;说明&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;&lt;tr&gt;
-&lt;td align=&quot;center&quot;&gt;&lt;code&gt;Consumer &amp;lt;T&amp;gt;&lt;/code&gt; 消费型接口&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;T&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;void&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;对类型为T的对象进行操作，包含方法： void accept (T t)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&quot;center&quot;&gt;&lt;code&gt;Supplier &amp;lt;T&amp;gt;&lt;/code&gt; 供给型接口&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;void&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;T&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;返回类型为T的对象，包含方法： T get ()&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&quot;center&quot;&gt;&lt;code&gt;Function&amp;lt;T,R&amp;gt;&lt;/code&gt; 函数型接口&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;T&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;R&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;对入参进行应用操作并返回R类型的对象，包含方法： R apply (T t)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&quot;center&quot;&gt;&lt;code&gt;Predicate&amp;lt;T&amp;gt;&lt;/code&gt; 断定型接口&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;T&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;boolean&lt;/td&gt;
-&lt;td align=&quot;center&quot;&gt;确定类型为T的对象是否满足某约束，并返回boolean值。包含方法： boolean test (T t)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;&lt;/table&gt;
+      
+      
+        &lt;h1 id=&quot;JDK8新特性&quot;&gt;&lt;a href=&quot;#JDK8新特性&quot; class=&quot;headerlink&quot; title=&quot;JDK8新特性&quot;&gt;&lt;/a&gt;JDK8新特性&lt;/h1&gt;&lt;p&gt;​        Java8是Oracle公司于2014年3月发布的Java版本，可以看成是：自Ja
+      
     
     </summary>
     
@@ -87,8 +40,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2020/08/06/hello-world/"/>
-    <id>http://yoursite.com/2020/08/06/hello-world/</id>
+    <link href="https://liu1796997299.github.io/2020/08/06/hello-world/"/>
+    <id>https://liu1796997299.github.io/2020/08/06/hello-world/</id>
     <published>2020-08-06T07:43:37.174Z</published>
     <updated>2020-08-06T07:43:37.174Z</updated>
     
@@ -96,14 +49,10 @@
     
     <summary type="html">
     
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&amp;quot;My New Post&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/writing.html&quot;&gt;Writing&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Run-server&quot;&gt;&lt;a href=&quot;#Run-server&quot; class=&quot;headerlink&quot; title=&quot;Run server&quot;&gt;&lt;/a&gt;Run server&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/server.html&quot;&gt;Server&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Generate-static-files&quot;&gt;&lt;a href=&quot;#Generate-static-files&quot; class=&quot;headerlink&quot; title=&quot;Generate static files&quot;&gt;&lt;/a&gt;Generate static files&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for
+      
     
     </summary>
     
